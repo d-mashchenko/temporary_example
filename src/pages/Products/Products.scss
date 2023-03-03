@@ -1,0 +1,48 @@
+.Products {
+  margin-top: 40px;
+  margin-bottom: 80px;
+
+  &__container {
+    display: flex;
+    flex-direction: column;
+  }
+
+  &__top-row {
+    display: flex;
+    align-items: center;
+  }
+
+  &__title {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 54px;
+    color: #000000;
+    margin-bottom: 16px;
+  }
+
+  &__catalog {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 -20px;
+  }
+
+  &__card-wrapper {
+    max-width: 25%;
+    width: 100%;
+    padding: 0 20px;
+    margin-bottom: 40px;
+
+    @media (max-width: 992px) {
+      max-width: 33.33%;
+      padding: 0 15px;
+    }
+    @media (max-width: 768px) {
+      max-width: 50%;
+      padding: 0 10px;
+    }
+    @media (max-width: 480px) {
+      max-width: 100%;
+      padding: 0 5px;
+    }
+  }
+}

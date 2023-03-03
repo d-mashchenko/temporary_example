@@ -1,0 +1,35 @@
+.SearchField {
+  &__form {
+    margin-left: auto;
+  }
+
+  &__container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  &__input {
+    font-family: "Poppins";
+    font-weight: 400;
+    font-size: 19px;
+    line-height: 28px;
+    color: #fff;
+    background: none;
+    border: none;
+    outline: none;
+    max-width: 195px;
+
+    &.instant {
+      color: #232323;
+    }
+
+    &::placeholder {
+      color: #a8a8a8;
+    }
+  }
+
+  &__icon {
+    margin-right: 16px;
+  }
+}

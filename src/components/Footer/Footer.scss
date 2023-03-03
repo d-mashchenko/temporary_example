@@ -1,0 +1,16 @@
+.Footer {
+    background: #022B32;
+
+    &__container {
+        padding-top: 27px;
+        padding-bottom: 27px;
+    }
+
+    &__copyright-note {
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 24px;
+        text-transform: uppercase;
+        color: #FFFFFF;
+    }
+}

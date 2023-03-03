@@ -1,0 +1,27 @@
+
+* {
+  box-sizing: border-box;
+}
+
+html, body {
+    font-family: Poppins;
+    height: 100%;
+  }
+
+  #wrapper {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+  }
+
+  #main {
+    flex: 1 1 auto;
+    
+  }
+  
+  .container {
+    max-width: 1520px;
+    margin: 0 auto;
+    padding: 0 20px;
+  }
